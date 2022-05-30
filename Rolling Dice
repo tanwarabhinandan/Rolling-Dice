@@ -1,0 +1,11 @@
+import random
+
+min = 1
+max = 6
+roll_dice = input("Wanna roll dice :- Y/N : ")
+if roll_dice == "Y":
+  print("Rolling Dice...!!!");
+  dice = random.randint(min,max)
+  print ("Value is",dice);
+else:
+  print ("Good Luck, Come back later...!!!");
